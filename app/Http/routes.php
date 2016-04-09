@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('about', function () {
     return view('about');
+});
+
+Route::get('tintuc', function () {
+    return view('tintuc');
 });
