@@ -12,11 +12,32 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('trangchu');
 });
 
-Route::get('about', function () {
-    return view('about');
+Route::get('product', function () {
+    return view('sanpham');
+});
+
+Route::get('intro', function () {
+    return view('gioithieu');
+});
+
+Route::get('news', function () {
+    return view('tintuc');
+});
+
+Route::get('single', function () {
+    return view('single');
+});
+
+
+Route::get('contact', function () {
+    return view('lienhe');
+});
+
+Route::get('sanpham', function () {
+    return view('sanpham');
 });
 
 Route::get('tintuc', function () {
